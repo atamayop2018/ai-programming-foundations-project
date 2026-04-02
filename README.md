@@ -36,3 +36,14 @@ This dataset contains information about Airbnb listings in NYC from 2019, includ
 3. Run all cells in order
 
 The notebook will load the data, apply cleaning functions, perform analysis, and generate visualizations.
+
+## Bias and Data Quality
+Data cleaning and preprocessing decisions can introduce bias. For example:
+- Removing missing values may exclude certain types of listings
+- Outliers in price may distort interpretations if not handled carefully
+
+To reduce bias:
+- Cleaning decisions were kept minimal and transparent
+- Extreme values were analyzed rather than blindly removed
+
+Future improvements could include more robust outlier handling and bias analysis.
